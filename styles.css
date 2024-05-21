@@ -6,12 +6,36 @@
   padding: 0;
 }
 
-body{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: hsl(217, 91%, 55%);
+  border: none;
+  outline: none;
+  color: white;
+}
+
+footer {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  background: hsl(217, 91%, 55%);
 }
 
 .container {
@@ -21,53 +45,68 @@ body{
   height: 400px;
   width: 800px;
   padding: 15px 7px;
-    justify-content: space-evenly;
-    align-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: .5rem;
+  border: none;
+    outline: none;
+  box-shadow: 1px 1px 31px 1px rgba(0,0,0,0.3);
+  
 }
-.sub_container{
+.sub_container {
     display: flex;
     flex-direction: column;
     width: 350px;
     height: 350px;
-    
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.3);
+    border: none;
+    outline: none;
+    border-radius: .5rem;
+    padding-left: 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+    margin-top: 2rem;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+label {
+  font-size: 0.9rem;
+  margin-bottom: 7px;
+}
+input,
+select,
+option {
+  font-size: 0.8rem;
+  color: grey;
+  width: 80%;
+  padding: 5px 7px;
+  margin-bottom: 8px;
+}
 
-}
-.form{
-    display: flex;
-    flex-direction: column;
-
-}
-h1{
-    font-size: 2rem;
-    margin-bottom: 10px;
-}
-label{
-    font-size: .9rem;
-    margin-bottom: 7px;
-}
-input,select,option{
-    font-size: 1.2rem;
-    width: 80%;
-    padding: 5px 7px;
-    margin-bottom:8px ;
+button {
+  font-size: 1rem;
+  width: fit-content;
+  padding: 9px;
+  background: hsl(217, 91%, 55%);
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: .25rem;
 }
 
-button{
-    font-size: 1.2rem;
-    width: fit-content;
-    padding: 3px;
+.output {
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  justify-content: center;
 }
-
-.output{
-    display: flex;
-    flex-direction: column;
-    height: 550px;
-    justify-content: center;
-    
-}
-.output p{
-    font-size: 1.2rem;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    font-weight: 300;
-    padding-bottom: .25rem;
+.output p {
+  font-size: 1.2rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+  padding-bottom: 0.25rem;
 }
