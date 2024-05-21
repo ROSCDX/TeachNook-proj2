@@ -37,5 +37,9 @@ This is a simple project showcasing an Age and Distance calculator.
 2. Navigate to the project directory: `cd TeachNook-proj2`
 3. Open `index.html` in your web browser
 
- <!-- ## Screenshot
-![Calculator Screenshot](path/to/your/image.png) -->
+## Screenshot
+
+<p>
+    <img width="960px" height="540px" src="https://github.com/ROSCDX/TeachNook-proj2/blob/main/Age%20%26%20Distance%20Calculator%20Image.png" alt="Age and Distance Calculator Image">
+</p>
+
